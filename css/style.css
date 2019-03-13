@@ -1,0 +1,43 @@
+/* UNIVERSAL STYLES */
+body {
+  background-color: whitesmoke;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0
+}
+
+/* img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+} */
+
+/* HEADER STYLES */
+.grid-container-header {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  /* grid-template-rows: 1; */
+  /* flex-flow: row wrap;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: yellow;
+  height: 5em;
+  padding: 1.5em; */
+}
+
+/* #logo-div {
+  background-color: red;
+}
+
+#nav-bar {
+  background-color: orange;
+} */
+
+li.nav-link {
+  list-style-type: none;
+  display: inline;
+}
+
+#header-img {
+  max-width: 30%;
+}
