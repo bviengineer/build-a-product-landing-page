@@ -1,5 +1,6 @@
 /* UNIVERSAL STYLES */
 body {
+  font-family: 'Raleway', sans-serif;
   background-color: whitesmoke;
   box-sizing: border-box;
   margin: 0;
@@ -30,6 +31,7 @@ body {
 .nav-link {
   list-style: none;
   display: inline-block;
+  font-weight: 400;
 }
 
 .nav-link:nth-child(2), .nav-link:nth-child(3) {
