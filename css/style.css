@@ -62,6 +62,7 @@ a:link, a:visited {
     "v v v v"
     "p p p p"
     "f f f f";
+  grid-row-gap: 3em;
 }
 
 .get-started {
