@@ -34,6 +34,11 @@ body {
   font-weight: 400;
 }
 
+a:link {
+  text-decoration: none;
+  color: black;
+}
+
 .nav-link:nth-child(2), .nav-link:nth-child(3) {
   margin-left: 3em;
 }
