@@ -86,6 +86,8 @@ a:link, a:visited {
 
 .fs-content {
   grid-area: s;
+  margin-left: 5em;
+  line-height: 0.3em;
 }
 
 .quality-assurance {
