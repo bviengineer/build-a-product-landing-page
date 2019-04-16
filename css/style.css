@@ -51,6 +51,7 @@ a:link, a:visited {
 /* MAIN STYLES */
 .grid-container {
   display: grid;
+  box-sizing: content-box;
   justify-content: center;
   align-content: flex-end;
   grid-template-columns: repeat(6, auto);
@@ -192,8 +193,8 @@ p + ul li {
   font-size: 1em;
 }
 
-/* removes the additional padding and margins from the li's and allows them to be perfectly centered*/
-p + ul {
+/* removes the additional padding and margins from the li's and allows them to be perfectly centered or aligned */
+p + ul, .footer ul, .footer ul li {
   margin: 0;
   padding: 0;
 }
@@ -206,4 +207,25 @@ input[value="select"] {
   font-size: 1em;
   padding: 0.8em 1em;
   border: 0;  
+}
+
+/* FOOTER STYLES */
+.footer {
+  text-align: right;
+  padding: 1em 1.5em 1em 0;
+  background-color: lightgray;
+  font-weight: 400;
+}
+
+.footer ul {
+  list-style-type: none;
+}
+
+.footer ul li {
+  display: inline-block;
+  font-size: 0.9em;
+}
+
+.footer ul li:nth-of-type(2n) {
+  padding: 0 2em;
 }
