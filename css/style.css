@@ -52,17 +52,18 @@ a:link, a:visited {
 .grid-container {
   display: grid;
   justify-content: center;
-  grid-template-columns: repeat(4, auto);
+  grid-template-columns: auto 20px auto auto;
   grid-template-rows: repeat(7, auto);
   grid-template-areas: 
     "e e e e"
-    "a m m m"
-    "b s s s"
-    "c q q q"
+    "a a m m"
+    "b b s s"
+    "c c q q"
     "v v v v"
     "p p p p"
     "f f f f";
   grid-row-gap: 3em;
+  grid-column-gap: 4em;
 }
 
 .get-started {
@@ -73,30 +74,39 @@ a:link, a:visited {
 
 .premium-materials {
   grid-area: a;
+  align-self: center;
+  justify-self: center;
 }
 
 .pm-content {
   grid-area: m;
-  margin-left: 5em;
+  justify-self: flex-start;
   line-height: 0.3em;
 }
 
 .fast-shipping {
   grid-area: b;
+  align-self: center;
+  justify-self: flex-end;
+  /* transform: rotate(180deg); */
 }
 
 .fs-content {
   grid-area: s;
-  margin-left: 5em;
+  justify-self: flex-end;
   line-height: 0.3em;
 }
 
 .quality-assurance {
   grid-area: c;
+  justify-self: flex-end;
+  align-self: center;
 }
 
 .qa-content {
   grid-area: q;
+  line-height: 0.3em;
+  justify-content: flex-end;
 }
 
 .video {
