@@ -7,10 +7,11 @@ body {
   padding: 0
 }
 
-
 /* HEADER STYLES */
 #header {
   padding-top: 3em;
+  position: fixed;
+  background-color: whitesmoke;
 }
 
 .flexbox-header {
