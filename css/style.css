@@ -60,7 +60,7 @@ a:link, a:visited {
     "a a a m m m"
     "b b b s s s"
     "c c c q q q"
-    "- - - v v v"
+    ". . . v v v"
     "p p p p p p"
     "f f f f f f";
   grid-row-gap: 3em;
@@ -115,7 +115,7 @@ a:link, a:visited {
 }
 
 .pricing {
-  grid-area: p
+  grid-area: p;
 }
 
 .footer {
@@ -154,4 +154,28 @@ a:link, a:visited {
 p {
   font-size: 0.9em;
   font-weight: 400;
+}
+
+.tenor {
+  width: 350px;
+  height: 100%;
+  border: 1px solid black;
+  text-align: center;
+}
+
+h4 {
+  text-transform: uppercase;
+  background-color: lightgray;
+  margin-top: 0;
+  height: 2em;
+  padding: 0.8em 2em;  
+  text-align: center;
+}
+
+.pricing p {
+  font-size: 1em;
+}
+
+ul li {
+  list-style-type: none;
 }
