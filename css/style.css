@@ -18,7 +18,7 @@ body {
   flex-wrap: no-wrap;
 }
 
-.nav-link {
+.nav-items li {
   list-style: none;
   display: inline-block;
   font-weight: 400;
