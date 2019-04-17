@@ -70,6 +70,7 @@ a:link, a:visited {
 }
 
 .get-started {
+  padding-top: 20vh;
   grid-area: e;
   text-align: center;
   margin-bottom: 3em;
