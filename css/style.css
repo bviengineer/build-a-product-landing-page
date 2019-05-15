@@ -271,7 +271,17 @@ input[value="select"] {
   .nav-link:nth-child(1), .nav-link:nth-child(2) {
     margin-right: 1em
   }
- 
- .grid-container {
+
+  .grid-container {
     padding-top: 4em;
   }
+ 
+.premium-materials, .fast-shipping, .quality-assurance {
+  padding-left: 13em;
+}
+ 
+.pm-content, .fs-content, .qa-content {
+  text-align: left;
+  margin-right: 13em;
+  line-height: 1.3;
+}
