@@ -11,12 +11,12 @@ body {
 #header {
   padding-top: 3em;
   position: fixed;
-  background-color: whitesmoke;
 }
 
 .flexbox-header {
-  display: flex;  
+  display: flex;   
   flex-wrap: no-wrap;
+  background-color: whitesmoke;
 }
 
 .nav-items li {
@@ -39,8 +39,8 @@ a:link, a:visited {
 
 #logo-div {
   margin-right: 10%;
-  width: 50%;
   margin-left: 2em;
+  width: 50%;
 }
 
 #header-img {
