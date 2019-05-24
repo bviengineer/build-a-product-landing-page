@@ -234,7 +234,11 @@ input[value="select"] {
 /* MEDIA QUERIES */
 @media screen and (max-width: 750px) {
   #header {
-    background-color: rgb(217, 243, 217);
+    background-color: rgb(245, 158, 45);
+  }
+
+  h2 {
+    font-size: 1rem;
   }
   
   #logo-div {
