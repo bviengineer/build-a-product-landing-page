@@ -236,10 +236,6 @@ input[value="select"] {
   #header {
     background-color: rgb(245, 158, 45);
   }
-
-  h2 {
-    font-size: 1rem;
-  }
   
   #logo-div {
     width: 100%;
@@ -288,14 +284,23 @@ input[value="select"] {
       "p p p p p p"
       "f f f f f f";
   }
+
+  h2 {
+    font-size: 1rem;
+  }
+
+  /* .pm-contnet, .fs-content, .qa-content {
+    font-size: 1em;
+  } */
  
 .premium-materials, .fast-shipping, .quality-assurance {
   padding-left: 13em;
 }
  
 .pm-content, .fs-content, .qa-content {
-  text-align: left;
-  margin-right: 13em;
+  text-align: center;
+  margin-right: 22em;
+  margin-left: 2em;
   line-height: 1.3;
 }
 
