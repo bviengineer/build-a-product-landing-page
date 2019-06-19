@@ -13,22 +13,23 @@
     <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,700" rel="stylesheet"> 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">    
   </head>
-  <body>
+  <body> 
     <!--[if lt IE 7]>
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
       <header id="header" class="flexbox-header">
+
         <!-- Flex Item 1 -->
         <div id="logo-div">
           <a href="#"><img id="header-img" src="https://s3.amazonaws.com/freecodecamp/original_trombones.png" alt="Logo"></a>
         </div>
+
         <!-- Flex Item 2 -->
-        <nav id="nav-bar">
-          <ul class="nav-items"> 
-            <li><a class="nav-link" href="#features">Features</a></li>
-            <li><a class="nav-link" href="#how-it-works">How It Works</a></li>
-            <li><a class="nav-link"href="#pricing">Pricing<a></li>
-          </ul>
+        <!-- Nested flex container for nav items--> 
+        <nav id="nav-bar" class="flexbox-nav-container">
+          <a class="nav-link" href="#features">Features</a>
+          <a class="nav-link" href="#how-it-works">How It Works</a>
+          <a class="nav-link" href="#pricing">Pricing<a>
         </nav>
       </header>
 
